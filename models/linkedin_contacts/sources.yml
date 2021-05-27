@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: linkedin_contacts
+    schema: public
+    tags:
+      - linkedin_contacts
+    tables:
+      - name: linkedin_contacts_original
+        identifier: linkedin_contacts

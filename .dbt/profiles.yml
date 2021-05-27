@@ -1,0 +1,12 @@
+jaffle_shops: # this needs to match the profile: in your dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: leadgen2.cyfef1oum3mu.us-east-1.rds.amazonaws.com
+      user: leadgen_readwrite
+      password: ZbdwRFN562h0BZGEMRmEqZmPeuyLq9IeHgElDr7j
+      port: 25234
+      dbname: leadgen
+      schema: get_dbt
+      threads: 2
